@@ -366,4 +366,4 @@ Frontend build: passing
 
 ## License
 
-This repository is submitted as an interview assignment project.
+This repository is submitted by Ved N. Patil.
