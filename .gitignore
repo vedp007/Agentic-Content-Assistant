@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+
+# Node/Vite
+node_modules/
+dist/
+frontend/node_modules/
+frontend/dist/
+
+# Runtime uploads and local files
+uploads/
+backend/uploads/
+.env
+.env.*
+
+# Editor/system files
+.DS_Store
+Thumbs.db
+.vscode/

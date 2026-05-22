@@ -1,0 +1,11 @@
+# Install these only when you want full OCR/audio/YouTube runtime support.
+# Some packages also need system tools:
+# - Tesseract OCR for pytesseract
+# - Poppler for pdf2image
+# - ffmpeg for openai-whisper
+
+pillow
+pytesseract
+pdf2image
+openai-whisper
+youtube-transcript-api
