@@ -59,30 +59,9 @@ This project was built for the DSAI agentic AI assignment.
 
 ## Architecture
 
-```text
-React Chat UI
-    |
-FastAPI /chat
-    |
-Input Router
-    |
-Extraction Services
-    |-- Text
-    |-- PDF parser / OCR fallback
-    |-- Image OCR
-    |-- Audio transcription
-    |-- YouTube transcript
-    |
-Intent Agent
-    |
-Planner Agent
-    |
-Tool Executor
-    |
-Text Response + Extracted Text + Plan + Logs + Metadata
-```
+![Architecture Diagram](docs/architecture-diagram.png)
 
-Detailed diagram: [docs/architecture.md](docs/architecture.md)
+Detailed architecture notes are available in [docs/architecture.md](docs/architecture.md).
 
 ## Project Structure
 
